@@ -1,5 +1,6 @@
 #include <string>
 #include <iostream>
+#include <map>
 
 using namespace std;
 
@@ -24,5 +25,13 @@ std::string getRandomString() {
         result += alphabet[rand() % 25];
     }
     return result;
+}
+
+double metric(std::map<char, double> frequencyMap, std::map<char, double> frequencyMapOfCipherText) {
+    for 
+}
+
+std::map<char, double> getFrequencyMapOfCipherText(string cipherText) {
+    //todo
 }
 
